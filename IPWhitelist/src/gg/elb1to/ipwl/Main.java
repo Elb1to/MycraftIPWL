@@ -1,9 +1,7 @@
 package gg.elb1to.ipwl;
 
 import org.bukkit.plugin.java.*;
-
 import gg.elb1to.ipwl.listeners.JoinListener;
-
 import java.util.*;
 import org.bukkit.plugin.*;
 import org.bukkit.event.*;
@@ -23,11 +21,21 @@ public class Main extends JavaPlugin
         ((Main)(Main.plugin = (Plugin)this)).saveDefaultConfig();
         this.check();
         this.getServer().getPluginManager().registerEvents((Listener)new JoinListener(), (Plugin)this);
-        this.getServer().getConsoleSender().sendMessage("�7(�6�lIPWL�7) Ha sido activado.");
+        this.getServer().getConsoleSender().sendMessage("§7----------------------------------------");
+        this.getServer().getConsoleSender().sendMessage("§6Mycraft §lIPWhitelist");
+        this.getServer().getConsoleSender().sendMessage("§eDeveloped by Elb1to");
+        this.getServer().getConsoleSender().sendMessage("§8");
+        this.getServer().getConsoleSender().sendMessage("§7(§6§lIPWL§7) Ha sido activado.");
+        this.getServer().getConsoleSender().sendMessage("§7----------------------------------------");
     }
     
     public void onDisable() {
-        this.getServer().getConsoleSender().sendMessage("�7(�6�lIPWL�7) Ha sido desactivado.");
+        this.getServer().getConsoleSender().sendMessage("§7----------------------------------------");
+        this.getServer().getConsoleSender().sendMessage("§6Mycraft §lIPWhitelist");
+        this.getServer().getConsoleSender().sendMessage("§eDeveloped by Elb1to");
+        this.getServer().getConsoleSender().sendMessage("§8");
+        this.getServer().getConsoleSender().sendMessage("§7(§6§lIPWL§7) Ha sido desactivado.");
+        this.getServer().getConsoleSender().sendMessage("§7----------------------------------------");
     }
     
     public static Plugin getPlugin() {

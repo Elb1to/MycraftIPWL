@@ -1,0 +1,7 @@
+name: IPWL
+load: STARTUP
+main: gg.elb1to.ipwl.Main
+author: Elb1to
+version: 1.0-SNAPSHOT
+description: Custom IPWL plugin made for Mycraft Network
+website: www.mycraft.es

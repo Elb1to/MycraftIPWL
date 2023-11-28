@@ -1,0 +1,6 @@
+address_list:
+  - "127.0.0.1"
+  - "192.168.0.1"
+bypass_permission: "ipwhitelist.bypass"
+login_denied_message: "&8[&4&l!&8] &cYou are not allowed to login from this IP address."
+bypass_attempt_message: "&8[&4&l!&8] &c<player>&7(&c<player_ip>&7) &ehas attempted to bypass: &c<ip>&e."

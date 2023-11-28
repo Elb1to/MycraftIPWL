@@ -1,0 +1,7 @@
+name: IPWL
+load: STARTUP
+author: Elb1to
+version: ${project.version}
+main: me.elb1to.ipwl.IPWhitelistPlugin
+description: Custom IP Whitelist plugin made for Mycraft Network
+website: www.mycraft.es
